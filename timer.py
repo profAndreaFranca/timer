@@ -2,7 +2,7 @@
 import time
 #roberta
 #Marcos >=)
-
+#MUAHAHAHHAHAHAHAHAHAH |:)|
 seconds = int(input("Digite o tempo em segundos: "))
 
 def countdown_timer(sec):
@@ -12,6 +12,7 @@ def countdown_timer(sec):
         secs = sec % 60
 
         timer = f"{mins}:{secs}   "
+        #sobrepor linha
         print(timer, end="\r")
         #diminuir os segundos somente apos 1 segundo
         time.sleep(1)
